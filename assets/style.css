@@ -2,62 +2,73 @@
 
 p {
     color: #777777;
-    text-align: justify;
-    }
+    text-align: left;
+    line-height: 24px;
+    font-size: 15px;
+    
+}
 
 body {
-    background-image: url("assets/style.css");
+    background-image: url("../assets/images/subtle_grunge.png");
     background-size: contain;
 }
 
 h6 {
     color: #4aaaa5;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Libre Baskerville', serif;
     font-size: 22px;
-    margin-bottom: 40px;
+    margin-bottom: 35px;
     margin-left: 5px;
-    border-bottom: grey;
-    
+    padding-bottom: 20px;
+    border-bottom-style: dotted;
+    border-bottom-color: #c7c5c5;
+    border-bottom-width: 1px;
 }
 
 .container {
+    background-color: white;
     padding: 20px;
     position: absolute;
     top: 100px;
     left: 250px;
-    
+    width: 800px;
 }
+
 .navbar {
-    border-bottom: #777777;
+    border-bottom: #adabab;
     border-style: solid;
     border-top-width: 0px;
     border-right: 0px;
     border-left: 0px;
     border-bottom-width: 1px;
-    height: 60px;
-    
-   }
+    height: 61px;
+}
+
+#navbarNav{
+    position: relative;
+    left: 320px;
+}
 
 #barheight {
     height: 70px;
 }
 
 #greenbox {
+    position: relative;
+    left: 235px;
     border-style: solid;
     border-color: transparent;
     height: 70px;
     width: 200px;
     text-align: center;
     line-height: 50px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 27px;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 22px;
     
 }
 .nav-link.disabled {
     background-color: #4aaaa5;
     color:white;
-    
-
 }
 
 .navbar-expand-lg .navbar-collapse {
@@ -65,8 +76,7 @@ h6 {
     display: flex!important;
     -ms-flex-preferred-size: auto;
     flex-basis: auto;
-    position: absolute;
-    right: 600px;
+
 }
 
 .nav-link {
@@ -83,11 +93,32 @@ h6 {
     background-color: #fff;
     border: 1px solid #dee2e6;
     border-radius: .25rem;
-    max-width: 45%;
+    max-width: 100%;
+    width: 220px;
     height: auto;
     float: left;
     margin-right: 15px;
     margin-bottom: 5px;
     margin-left: 0px;
 }
+
+footer {
+    background-color: #777777;
+    color: #ffffff;
+    text-align: center;
+    position: relative;
+    bottom: 0px;
+    padding: 20px;
+    width: 100%;
+    font-size: 10pt;
+    border-top: 2px;
+    border-top-style: solid;
+    border-color: #4aaaa5;
+}
+
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 0;
+  }
     /* size: 200px; */
