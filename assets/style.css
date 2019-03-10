@@ -10,14 +10,18 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20pt;
     letter-spacing: 1px;
+    height: 60px;
+    width: 220px;
     /* font-style: italic; */
     /* margin-left: auto; */
 }
 
-
-.card {
-    margin: 0 auto; /* Added */ float: none; /* Added */ margin-bottom: 10px; /* Added */  /* I copied this line from stack overflow & used it to center the card */
-}
+/* I copied this line from stack overflow & used it to center the card before I used the div tag instead */
+/* .card {
+    margin: 0 auto; 
+    float: none;
+    margin-bottom: 10px;
+} */
 
 h4 {
     margin-top: -15px;
@@ -65,9 +69,7 @@ body {
     }
 
 
-#bottomnav {
-    background-color: #777777;
-}
+
 
 .navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
     color: #f8f9fa;
@@ -79,11 +81,29 @@ body {
     padding: 10px;
 }
 
+#greenbox{
+    max-width: 250px;
+}
+
 .container{
     background-color: #f8f9fa;
+}
+
+.container-fluid{
+    border-style: solid;
+    border-top-width: 0;
+    border-right-width: 0ch;
+    border-left-width: 0ch;
+    border-bottom-width: 1px;
+    border-top-color: #777777;
+
 }
 
 .btn-primary{
     background-color: #4aaaa5;
     border: #4aaaa5;
+}
+
+#bottomnav {
+    background-color: #777777;
 }
