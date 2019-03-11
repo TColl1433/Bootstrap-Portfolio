@@ -128,8 +128,9 @@ body {
     width: 400px;
 }
 
-#ptfocontainer{
-    margin-top: 20px
+#ptfocontainer {
+    margin-top: 28px;
+   
 }
 .btn-primary{
     background-color: #4aaaa5;
@@ -141,4 +142,9 @@ body {
     width: 200px;
 }
 
+.bg-dark {
+    background-color: #777777!important;
+    padding-top:25px;
+    
+}
     
