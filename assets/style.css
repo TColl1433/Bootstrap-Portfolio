@@ -1,5 +1,11 @@
 .nav-link{
     color:#777777;
+
+
+}
+
+.navbar{
+    padding: 0px 0px; 
 }
 .navbar-light .navbar-brand {
     /* display: inline-block; */
@@ -10,17 +16,31 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20pt;
     letter-spacing: 1px;
-    height: 60px;
-    width: 220px;
+    line-height: 60px;
+    width: 240px;
+    margin-left: 40px;
+}
+
+#nav1{
+    padding: 0px;
+    border-width: 0ch;
+}
+
+    
+    
     /* font-style: italic; */
     /* margin-left: auto; */
-}
+
 
 /* I copied this line from stack overflow & used it to center the card before I used the div tag instead */
 /* .card {
     margin: 0 auto; 
     float: none;
     margin-bottom: 10px;
+} */
+
+/* .navbar-brand{
+    margin: 0px 0px 0px 0px;
 } */
 
 h4 {
@@ -87,6 +107,10 @@ body {
 
 .container{
     background-color: #f8f9fa;
+    padding: 15px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #b3b1b1
 }
 
 .container-fluid{
@@ -95,15 +119,26 @@ body {
     border-right-width: 0ch;
     border-left-width: 0ch;
     border-bottom-width: 1px;
-    border-top-color: #777777;
-
+    border-bottom-color: #b3b1b1;
 }
 
+#portfolio{
+    margin-top: 20px;
+    height: 400px;
+    width: 400px;
+}
+
+#ptfocontainer{
+    margin-top: 20px
+}
 .btn-primary{
     background-color: #4aaaa5;
     border: #4aaaa5;
 }
 
-#bottomnav {
-    background-color: #777777;
+.img-thumbnail{
+    height: 200px;
+    width: 200px;
 }
+
+    
