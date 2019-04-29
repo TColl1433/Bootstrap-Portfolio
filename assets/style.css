@@ -81,12 +81,28 @@ body {
         padding-left: 0px;
     }
 
-    .card-img{    
-    border-radius: calc(.25rem - 1px);
-    padding: 25px;
-    height: 300px;
-    width: 300px;
+
+    .card-img{
+    padding: 20px;
     }
+
+    .fa-linkedin:before, .fa-github:before {
+      padding: 20px;
+      color: white;
+      position: relative;
+      
+    }
+
+
+
+ 
+
+    
+
+
+
+   
+    
 
 
 
