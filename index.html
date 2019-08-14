@@ -1,26 +1,35 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
 
-    <link rel="stylesheet" type="text/css" href="assets/style.css">
-
+    <link rel="stylesheet" type="text/css" href="assets/style.css" />
 
     <title>Bootstrap2</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div>
-        <!-- 
+      <!-- 
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                     <a class="navbar-brand" href="#">Navbar</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,53 +52,43 @@
                       </ul>
                     </div>
                   </nav> -->
-        <!-- <div class="container-fluid"> -->
+      <!-- <div class="container-fluid"> -->
 
+      <!-- old navbar below -->
 
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <!-- <div class="container-fluid"> I used this below to align logo with bottom border-->
 
-        <!-- old navbar below -->
+        <div id="green-nav" class="container-fluid">
+          <!-- col-md-3 this came with the navbar brand, I removed it in order to have more control over the size of the green box-->
+          <span class="navbar-brand">Tracy Collins</span>
 
-
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <!-- <div class="container-fluid"> I used this below to align logo with bottom border-->
-
-
-            <div id="green-nav" class="container-fluid">
-
-                <!-- col-md-3 this came with the navbar brand, I removed it in order to have more control over the size of the green box-->
-                <span class="navbar-brand">Tracy Collins</span>
-
-
-                <ul class="nav navbar-right">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="index.html">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="portfolio.html">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                </ul>
-
-            </div>
-        </nav>
-
-
-
+          <ul class="nav navbar-right">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </div>
 
-    <br>
+    <br />
     <!-- I used this div below before using the container div -->
     <!-- <div class="card mb-3" style="max-width: 850px;"> -->
 
     <div class="container">
         <div class="row no-gutters">
-            <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="col-lg-4 col-md-8 col-sm-12">
                 <img src="assets/images/My picの画像.jpg300px" class="card-img" alt="responsive image">
             </div>
 
-            <div class="col-md-7">
+            <div class="col-lg-8 col-md-7 col-sm-12">
                 <div class="card-body">
                     <p class="card-text">
                         <h4>About Me</h4>I currently work at the printing division of Phase 3 Marketing & Communications
@@ -101,10 +100,7 @@
                         Creative Suite
                         software to manipulate files and color correct files as necessary for printing. I am also
                         responsible for
-                        the operation and maintenence of two iGEN digital printing machines. I am hoping to make a
-                        transition into web
-                        development and I am here at Georgia Tech to learn all about it with the intention of making a
-                        career change.
+                        the operation and maintenence of two iGEN digital printing machines. I have just completed a web development course at Georgia Tech and I'm hoping to make a career change.
 
                     </p>
                     <p class="card-text">Apart from spending much of my time at work I also enjoy playing tennis,
@@ -118,8 +114,9 @@
     </div>
 
 
+
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-bottom">
-        copyright
+      copyright
     </nav>
 
     <!-- <nav class="fixed-bottom bg-dark navbar-expand-sm navbar-dark">
@@ -135,40 +132,37 @@
             <a class="btn github" href="#"><i class="fab fa-github" aria-hidden="true"></i></a>
         </div>
     </nav> -->
-
-
-
+<footer>
     <nav class="fixed-bottom bg-dark navbar-expand-sm navbar-dark">
-        <div class="col d-flex align-items-center justify-content-center">
-            <a href="https://www.linkedin.com/in/tracy-collins-868b2295/" target="_blank"><i
-                    class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a>
-            <a href="https://github.com/TColl1433" target="_blank"><i class="fab fa-github fa-lg"
-                    aria-hidden="true"></i></a>
-        </div>
+      <div class="col d-flex align-items-center justify-content-center">
+        <a
+          href="https://www.linkedin.com/in/tracy-collins-868b2295/"
+          target="_blank"
+          ><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i
+        ></a>
+        <a href="https://github.com/TColl1433" target="_blank"
+          ><i class="fab fa-github fa-lg" aria-hidden="true"></i
+        ></a>
+      </div>
     </nav>
-
-
-
-
-
-
-
-
-
-
-
+</footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
-</body>
-
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
