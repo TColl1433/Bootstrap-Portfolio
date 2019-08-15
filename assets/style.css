@@ -19,6 +19,23 @@
   margin-left: 40px;
 }
 
+a:hover {
+  text-decoration: none;
+}
+
+#Resume {
+  color: white;
+  margin-bottom: 10px;
+}
+
+.fa-linkedin:before,
+.fa-github:before {
+  vertical-align: middle;
+  padding: 20px;
+  color: white;
+  position: relative;
+}
+
 #nav1 {
   padding: 0px;
   border-width: 0ch;
